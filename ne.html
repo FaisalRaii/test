@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+.text{
+    width: 200px;
+    height: 300px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    /* position: fixed; */
+    text-align: center;
+}
+p{
+    color: black;
+    padding: 10px;
+    background-color: white;
+    display: none;
+    border-bottom: 2px solid gray;
+    position: relative;
+    top: 20px;
+}
+.text:hover p{
+    display: block;
+}
+</style>
+<body>
+    
+       <div class="text">HOME
+        <p>Details</p>
+        <p>About</p>
+        <p>Projects</p>
+        <p>Menu</p>
+        <p>Login</p>
+    </div>
+</body>
+</html>
